@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/information-professionals",
+      "handler": "information-professional.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/information-professionals/count",
+      "handler": "information-professional.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/information-professionals/:id",
+      "handler": "information-professional.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/information-professionals",
+      "handler": "information-professional.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/information-professionals/:id",
+      "handler": "information-professional.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/information-professionals/:id",
+      "handler": "information-professional.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "identification_types",
+  "info": {
+    "name": "IdentificationType"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    }
+  }
+}

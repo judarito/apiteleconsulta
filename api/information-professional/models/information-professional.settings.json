@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "information_professionals",
+  "info": {
+    "name": "InformationProfessional"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Identification": {
+      "type": "string"
+    },
+    "RegistrationCode": {
+      "type": "string"
+    },
+    "identification_type": {
+      "model": "identification-type"
+    },
+    "sex": {
+      "model": "sex"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sexes",
+  "info": {
+    "name": "Sex"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    }
+  }
+}
