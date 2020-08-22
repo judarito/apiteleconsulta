@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "companies",
+  "info": {
+    "name": "company"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "identification": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "ContactName": {
+      "type": "string"
+    },
+    "contactEmail": {
+      "type": "email"
+    }
+  }
+}
