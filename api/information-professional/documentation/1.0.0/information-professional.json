@@ -609,6 +609,9 @@
               },
               "role": {
                 "type": "string"
+              },
+              "company": {
+                "type": "string"
               }
             }
           }

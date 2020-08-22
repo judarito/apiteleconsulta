@@ -1244,6 +1244,40 @@
                 }
               }
             }
+          },
+          "company": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "code": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              },
+              "identification": {
+                "type": "string"
+              },
+              "active": {
+                "type": "boolean"
+              },
+              "ContactName": {
+                "type": "string"
+              },
+              "contactEmail": {
+                "type": "string"
+              },
+              "user": {
+                "type": "string"
+              }
+            }
           }
         }
       },
@@ -1280,6 +1314,9 @@
             "default": false
           },
           "role": {
+            "type": "string"
+          },
+          "company": {
             "type": "string"
           }
         }

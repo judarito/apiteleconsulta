@@ -52,6 +52,10 @@
       "via": "users",
       "plugin": "users-permissions",
       "configurable": false
+    },
+    "company": {
+      "via": "user",
+      "model": "company"
     }
   }
 }

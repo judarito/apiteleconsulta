@@ -29,6 +29,11 @@
     },
     "contactEmail": {
       "type": "email"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "company"
     }
   }
 }

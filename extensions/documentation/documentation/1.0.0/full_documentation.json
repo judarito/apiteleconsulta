@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "08/21/2020 8:27:45 PM"
+    "x-generation-date": "08/21/2020 8:42:49 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5891,6 +5891,45 @@
           },
           "contactEmail": {
             "type": "string"
+          },
+          "user": {
+            "required": [
+              "id",
+              "username",
+              "email"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "username": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "password": {
+                "type": "string"
+              },
+              "resetPasswordToken": {
+                "type": "string"
+              },
+              "confirmed": {
+                "type": "boolean"
+              },
+              "blocked": {
+                "type": "boolean"
+              },
+              "role": {
+                "type": "string"
+              },
+              "company": {
+                "type": "string"
+              }
+            }
           }
         }
       },
@@ -5915,6 +5954,9 @@
             "type": "string"
           },
           "contactEmail": {
+            "type": "string"
+          },
+          "user": {
             "type": "string"
           }
         }
@@ -6064,6 +6106,9 @@
                 "type": "boolean"
               },
               "role": {
+                "type": "string"
+              },
+              "company": {
                 "type": "string"
               }
             }
@@ -6258,6 +6303,9 @@
                 },
                 "role": {
                   "type": "string"
+                },
+                "company": {
+                  "type": "string"
                 }
               }
             }
@@ -6353,6 +6401,40 @@
                 }
               }
             }
+          },
+          "company": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "code": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              },
+              "identification": {
+                "type": "string"
+              },
+              "active": {
+                "type": "boolean"
+              },
+              "ContactName": {
+                "type": "string"
+              },
+              "contactEmail": {
+                "type": "string"
+              },
+              "user": {
+                "type": "string"
+              }
+            }
           }
         }
       },
@@ -6389,6 +6471,9 @@
             "default": false
           },
           "role": {
+            "type": "string"
+          },
+          "company": {
             "type": "string"
           }
         }
